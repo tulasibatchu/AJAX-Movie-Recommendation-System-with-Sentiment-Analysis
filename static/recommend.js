@@ -26,7 +26,7 @@ $(function() {
 
 // will be invoked when clicking on the recommended movies
 function recommendcard(e){
-  var my_api_key = 'YOUR_API_KEY';
+  var my_api_key = 'a0ed1607e7f37695436c28ae2be19761';
   var title = e.getAttribute('title'); 
   load_details(my_api_key,title);
 }
